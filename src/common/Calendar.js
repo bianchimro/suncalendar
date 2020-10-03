@@ -114,7 +114,7 @@ export class Calendar extends React.Component {
 
         const lightScaleBW = d3Scale
           .scaleLinear()
-          .domain([radiansTimes['min'], 0, 0.01, ,radiansTimes['max']])
+          .domain([radiansTimes['min'], 0, 0.01,radiansTimes['max']])
           .range(["black", "midnightblue" ,"white", "white"]);
 
       const element = d3.select(this);
